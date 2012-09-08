@@ -1,0 +1,11 @@
+How to make it work:
+
+#1. Place all files at their respective locations. For example place place captcha.php file inside your projects /app/controllers/component directory.
+
+#2. Make /app/webroot/img/captcha directory writable (chmod 0777)
+
+#3. If using component in a different controller than this package's captcha_controller.php copy paste both functions to your controller function area.
+
+#4. Access website url like this conrollername(captcha)/captcha_test and you should see the captcha image having a text field under it.
+
+Thats it!

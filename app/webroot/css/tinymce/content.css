@@ -1,0 +1,72 @@
+body {
+background-color : #ffffff;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10px;
+}
+td {
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10px;
+}
+pre {
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10px;
+}
+.example1 {
+font-weight : bold;
+font-size : 14px;
+}
+.example2 {
+font-weight : bold;
+font-size : 12px;
+color : #ff0000;
+}
+.tablerow1 {
+background-color : #bbbbbb;
+}
+thead {
+background-color : #ffbbbb;
+}
+tfoot {
+background-color : #bbbbff;
+}
+th {
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 13px;
+}
+.bold {
+font-weight : bold;
+}
+.italic {
+font-style : italic;
+}
+.underline {
+text-decoration : underline;
+}
+.left {
+text-align : inherit;
+}
+.center {
+text-align : center;
+}
+.right {
+text-align : right;
+}
+.full {
+text-align : justify;
+}
+img.left, table.left {
+float : left;
+text-align : inherit;
+}
+img.center, table.center {
+margin-left : auto;
+margin-right : auto;
+text-align : inherit;
+}
+img.center {
+display : block;
+}
+img.right, table.right {
+float : right;
+text-align : inherit;
+}

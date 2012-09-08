@@ -1,0 +1,52 @@
+[29-Jul-2011 22:07:11] OAuthException: Error validating access token: Session has expired at unix time 1311994800. The current unix time is 1311995231.
+[31-Jul-2011 13:12:43] OAuthException: Error validating access token: Session has expired at unix time 1312131600. The current unix time is 1312135963.
+[03-Aug-2011 09:57:40] OAuthException: Error validating access token: The session is invalid because the user logged out.
+[03-Aug-2011 10:49:55] OAuthException: Error validating access token: The session is invalid because the user logged out.
+[07-Aug-2011 02:30:51] CSRF state token does not match one provided.
+[07-Aug-2011 18:09:53] OAuthException: Error validating access token: The session is invalid because the user logged out.
+[16-Aug-2011 10:02:12] CSRF state token does not match one provided.
+[16-Aug-2011 10:02:28] CSRF state token does not match one provided.
+[16-Aug-2011 10:03:55] CSRF state token does not match one provided.
+[16-Aug-2011 15:54:13] CSRF state token does not match one provided.
+[16-Aug-2011 23:41:36] CSRF state token does not match one provided.
+[16-Aug-2011 23:46:57] CSRF state token does not match one provided.
+[16-Aug-2011 23:51:00] CSRF state token does not match one provided.
+[17-Aug-2011 13:36:48] OAuthException: Error validating access token: Session has expired at unix time 1313604000. The current unix time is 1313606208.
+[18-Aug-2011 11:16:28] CSRF state token does not match one provided.
+[18-Aug-2011 12:00:05] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/promat/public_html/tutor/app/controllers/homes_controller.php on line 226
+[18-Aug-2011 12:00:26] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/promat/public_html/tutor/app/controllers/homes_controller.php on line 226
+[18-Aug-2011 23:23:38] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/promat/public_html/tutor/app/controllers/homes_controller.php on line 226
+[18-Aug-2011 23:24:13] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/promat/public_html/tutor/app/controllers/homes_controller.php on line 226
+[18-Aug-2011 23:24:17] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/promat/public_html/tutor/app/controllers/homes_controller.php on line 226
+[20-Aug-2011 04:18:41] CSRF state token does not match one provided.
+[20-Aug-2011 04:18:59] CSRF state token does not match one provided.
+[20-Aug-2011 10:00:23] CSRF state token does not match one provided.
+[22-Aug-2011 00:14:13] CSRF state token does not match one provided.
+[22-Aug-2011 03:22:20] OAuthException: Error validating access token: Session has expired at unix time 1313996400. The current unix time is 1314001341.
+[22-Aug-2011 03:22:39] CSRF state token does not match one provided.
+[22-Aug-2011 03:23:25] CSRF state token does not match one provided.
+[23-Aug-2011 00:00:31] CSRF state token does not match one provided.
+[23-Aug-2011 02:45:43] CSRF state token does not match one provided.
+[23-Aug-2011 04:28:27] CSRF state token does not match one provided.
+[23-Aug-2011 10:59:43] CSRF state token does not match one provided.
+[23-Aug-2011 11:00:00] CurlException: 28: connect() timed out!
+[23-Aug-2011 11:00:10] CurlException: 28: connect() timed out!
+[23-Aug-2011 11:00:20] CurlException: 28: connect() timed out!
+[23-Aug-2011 11:21:17] CurlException: 28: connect() timed out!
+[23-Aug-2011 11:24:58] CurlException: 28: connect() timed out!
+[24-Aug-2011 00:48:38] CSRF state token does not match one provided.
+[07-Dec-2011 01:07:15] PHP Fatal error:  Uncaught exception 'Stripe_AuthenticationError' with message 'Invalid API Key provided: "hzKG6oNLVXaJpipg5j2AWqv0gl90MQZi"' in /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/ApiRequestor.php:69
+Stack trace:
+#0 /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/ApiRequestor.php(112): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 401, Array)
+#1 /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/ApiRequestor.php(54): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 401)
+#2 /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/ApiResource.php(74): Stripe_ApiRequestor->request('post', '/customers', Array)
+#3 /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/ab98168/public_html/app/controllers/members_controller.php(10267): Stripe_Customer::create(Array)
+#5 /home/ab98168/public_html/cake/dispatcher.php(204): MembersController->stripe_sucess()
+#6 /home/ab9816 in /home/ab98168/public_html/app/vendors/stripephp/lib/Stripe/ApiRequestor.php on line 69
+[28-Dec-2011 06:13:54] PHP Fatal error:  Uncaught Exception: 100: null does not resolve to a valid user ID
+  thrown in /home/ab98168/public_html/app/vendors/facebook/base_facebook.php on line 656
+[28-Dec-2011 06:28:12] PHP Fatal error:  Uncaught Exception: 13: The underlying FQL query made by this API call has encountered the following error: Can't lookup all friends of 720275071. Can only lookup for the logged in user or the logged in user's friends that are users of your app.
+  thrown in /home/ab98168/public_html/app/vendors/facebook/base_facebook.php on line 656
+[28-Dec-2011 08:14:04] PHP Fatal error:  Uncaught Exception: 100: null does not resolve to a valid user ID
+  thrown in /home/ab98168/public_html/app/vendors/facebook/base_facebook.php on line 656

@@ -1,0 +1,63 @@
+navigation html page
+
+
+		<div class="navigation">
+                	<ul>
+                    	<li class="navFirst navActive"><a href="javascript:void(0);">Home</a></li>
+                        <li><a href="javascript:void(0);">About</a></li>
+                        <li><a href="javascript:void(0);">Who We Are</a></li>
+
+                        <li><a href="javascript:void(0);">What We Do</a></li>
+                        <li><a href="javascript:void(0);">Lorem</a></li>
+                        <li><a href="javascript:void(0);">Ipsum </a></li>
+                        <li class="navLast"><a href="javascript:void(0);">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+
+CSS
+
+.navigation
+{
+	float:left;
+	width:960px;
+	padding-top:7px;
+}
+.navigation ul
+{
+	background: url(../../img/frontend/nav_bg.png) no-repeat;
+	float:left;
+	width:960px;
+	list-style:none;
+}
+.navigation ul li
+{
+	float:left;
+	border-right: 1px solid #097dc5;
+	width: auto;
+}
+.navigation ul li.navActive a
+{
+	color: #b6e7ff !important;
+}
+.navigation ul li a
+{
+	font-family: 'AntipastoRegular';
+	float: left;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 0 30px;
+}
+.navigation ul li a:hover
+{
+	color: #b6e7ff;
+}
+.navigation ul li.navLast
+{
+	border: none !important;
+}
