@@ -316,8 +316,7 @@ class MembersController extends AppController {
 		
 		$alldata    = $this->School->find('all');
 		$schoolname = Set::combine($alldata, '{n}.School.id', '{n}.School.school_name');
-		//print_r($schoolname);
-		//die;
+		
 		$this->set("schoolname", $schoolname);
 		
 		if (!empty($this->data)) {
