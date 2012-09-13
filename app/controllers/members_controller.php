@@ -69,7 +69,6 @@ class MembersController extends AppController {
 		
 		
 	}
-	
 	//Function for checking the existance of user's email in the database & used for validation
 	function checkemail() {
 		Configure::write('debug', 0);
