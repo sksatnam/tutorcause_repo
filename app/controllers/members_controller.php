@@ -362,19 +362,7 @@ class MembersController extends AppController {
 	
 	//function for adding the new user. controller=>users,action=>admin_add
 	function admin_edit($id = NULL) {
-		
-		
-		
-		
-		
-	/*	if($_POST)
-		{
-			echo '<pre>';
-			print_r($_POST);
-			die;
-		}*/
-		
-		
+	
 		
 		$this->layout = "admin";
 		Configure::write('debug', 0);
