@@ -83,8 +83,7 @@ class MembersController extends AppController {
 			)
 		));
 		
-		/*echo $count;
-		die;*/
+		
 		if ($count > 0) {
 			echo "false";
 		} else {
