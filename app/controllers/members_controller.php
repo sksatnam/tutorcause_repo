@@ -572,10 +572,6 @@ class MembersController extends AppController {
 			$this->data['Member']['perpage'] = 10;
 		}		
 		
-		/*echo '<pre>';
-		print_r($this->data);
-		die;*/
-		
 		
 		if(!empty($this->data['Member']['email']) || !empty($this->data['Member']['active']) || !empty($this->data['Member']['group_id']) )
 		{
