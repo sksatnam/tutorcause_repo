@@ -400,15 +400,6 @@ class MembersController extends AppController {
 															'recursive' => -1)
 											  );
 			
-			$fbid = $memberData['Member']['facebookId'];
-			
-			
-			$allMember = $this->Member->find('all',array('conditions'=>array('Member.facebookId'=> $fbid,
-																			'Member.active !='=> 3,
-																			),
-														 'recursive' => -1
-														)
-											);
 			
 			if($memberData['Member']['group_id']==7 || $memberData['Member']['group_id']==8)
 			{
