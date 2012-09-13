@@ -606,13 +606,7 @@ class MembersController extends AppController {
 		$states  = Set::combine($alldata, '{n}.State.state_code', '{n}.State.state_name');
 		//$cities = Set::combine($alldata,'{n}.State.id','{n}.State.city');
 		$this->set("states", $states);
-		//$this->set("cities",$cities);
-		
-		
-		/*$this->paginate = array(
-		'limit' => 2
-		);
-		*/
+	
 		
 		$members = $this->paginate('Member');
 		
