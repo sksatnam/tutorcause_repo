@@ -392,9 +392,7 @@ class MembersController extends AppController {
 		
 		
 		if (!empty($this->data)) {
-			/*echo '<pre>';
-			print_r($this->data);
-			die;*/
+			
 			
 			
 			
