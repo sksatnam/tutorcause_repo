@@ -143,9 +143,6 @@ class MembersController extends AppController {
 		));
 		
 		
-		/*echo '<pre>';
-		print_r($tutors);
-		die;*/
 		
 		$this->set('tutors', $tutors);
 		$students = $this->Member->find('all', array(
@@ -265,9 +262,6 @@ class MembersController extends AppController {
 	
 	//function for the admin to change his/her password	
 	function admin_change_password() {
-		/*	echo '<pre>';
-		print_r($this->data);
-		die;*/
 		
 		Configure::write('debug', 0);
 		$this->layout = "admin";
