@@ -498,10 +498,7 @@ class MembersController extends AppController {
 				
 				
 				
-				
-				/*echo '<pre>';
-				print_r($userMeta);
-				die;*/
+			
 				
 				$this->userMeta->create();
 				
